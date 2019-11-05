@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  a {
+    color: black;
+    text-decoration: none !important;
+  }
+  
+  /*///////// NAV /////////*/
+  nav a { display: block; }
+  nav a.underlined {
+    text-align: center;
+    border-bottom: 4px solid transparent;
+    color: #fff;
+    margin-right: 10px;
+  }
+  nav a.underlined:hover { border-bottom-color: #262626; }
+  nav #logo-menu li:nth-child(2) a.underlined:hover { border-bottom-color: #18b; }
+  nav #logo-menu li:nth-child(4) a.underlined:hover { border-bottom-color: #921; }
+  nav #logo-menu li:nth-child(5) a.underlined:hover { border-bottom-color: #fe1; }
+  nav #logo-menu li:nth-child(6) a.underlined:hover { border-bottom-color: rgb(23, 187, 216); }
+  nav #logo-menu li:nth-child(7) a.underlined:hover { border-bottom-color: #00f; }
+  nav #logo-menu li:nth-child(8) a.underlined:hover { border-bottom-color: rgb(34, 209, 87); }
+  nav #logo-menu li:nth-child(9) a.underlined:hover { border-bottom-color: rgb(4, 65, 92); }
+  nav #logo-menu li:nth-child(10) a.underlined:hover { border-bottom-color: rgb(159, 17, 187); }
+  nav #logo-menu li:nth-child(11) a.underlined:hover { border-bottom-color: #fff; }
+  nav #primary-nav a.underlined:hover { border-bottom-color: white; }
+  nav #sub-nav a.underlined:hover { border-bottom-color: #cc0101; }
+  
+  nav #logo-menu {
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+  }
+  nav #logo-menu ul {
+    display: table-row;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background: #000;
+  }
+  nav #logo-menu li {
+    display: table-cell;
+    vertical-align: top;
+    line-height: 40px;
+    border-right: 1px solid #262626;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  nav #logo-menu .sign-in { width: 150px; }
+  nav #logo-menu .sign-in a.underlined { text-align: center; }
+  nav #logo-menu li a.underlined {
+    height: 36px;
+    padding: 0 15px;
+  }
+  nav #logo-menu .search {
+    border-right: auto;
+  }
+  nav #logo-menu .logo { width: 1px; }
+  nav #logo-menu .search { width: 220px; }
+  nav #logo-menu .search .search-container {
+    margin: 8px;
+    height: 24px;
+    background: #e4e4e4;
+  }
+  nav #logo-menu .search .search-container input,
+  nav #logo-menu .search .search-container img { vertical-align: top; }
+  nav #logo-menu .search .search-container input {
+    background: transparent;
+    border: none;
+    width: 280px;
+    padding: 0 0 0 5px;
+    line-height: 24px;
+    font-weight: bold;
+  }
+.bbc{
+    background: #000;
+    color: #fff;
+    margin-right: 7px;
+    margin-left: 7px;
+    font-size: 25px;
+    font-weight: bold;
+}
+   .catch1 {
+    float: right;
+    margin-right: 10px;
+    font-size: 1.3rem;
+    color: #242222;
+    font-weight: 700;
+  }
+  .catch2{
+      color: #796b6b;
+      font-weight: 700;
+      font-size: 1.4rem;
+  }
+  
+  .catch li {
+    display: inline-block;
+    padding: 8px;
+  }
+ 
+  /*///////// End NAV /////////*/
+
+#ss {
+    background: #fff;
+    height: 460px;
+  }
+  #newsHeader {
+    text-decoration: none;
+    color: #444;
+    padding-left: 6px;
+    font-size: 120%;
+  }
+  .vertLine {
+    display: block;
+    height: 30px;
+    width:1px;
+    float: left;
+    margin-left: 2px;
+  }
+  .clearRed {
+    border-right: 4px solid #E91802;
+  }
+  #newsHeader:hover {
+    color: #000;
+  }
+  #sst > div {
+    height: 406px;
+    width: 406px;
+    float: left;
+    cursor: pointer;
+  }
+  #sst div:nth-child(n+1) {
+    margin-right: 8px;
+  }
+  #sst div:nth-child(n+2) {
+    margin-left: 8px;
+  }
+  #sst img {
+    height: 228px;
+    width: 406px;
+    
+  }
+  .secThHeader,
+  .secThHeadline{
+    padding: 6px 0;
+  }
+  .secThHeader{
+    color: #212121;
+  }
+  .secThHeadline {
+    color: #4a4a4a;
+  }
+  
+  .secThLink {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #767676;
+    font-size: 80%;
+    padding-left: 8px;
+    position: relative;
+  }
+  .secThLink::before {
+    position: absolute;
+    top: 1px;
+    left: 0px; 
+    height: 80%;
+    width: 1.5px;
+    background: #E91802;
+    float: left;
+  }
+  
+  .secThLink:hover {
+    text-decoration: underline;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .underlined a:not(:first-child) {display: none;}
+  }
